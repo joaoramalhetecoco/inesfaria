@@ -1,0 +1,14 @@
+.gallery {
+    grid-template-columns: 1fr;
+  }
+ .gallery {
+  display:grid;
+  grid-template-columns: repeat( 1fr);
+  gap: 5px;
+}
+main {
+  gap: 5px;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
