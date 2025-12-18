@@ -7,11 +7,28 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  
   <header>
+    <header class="top-bar">
+       <input type="checkbox" id="menu-toggle">
+
+  <label for="menu-toggle" class="menu-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <nav class="menu">
+    <a href="#inicio">Início</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#redes">Redes sociais</a>
+  </nav>
     <img src="media/logo.png" alt="Logo Björk" class="logo">
+    <main id="inicio"></main>
   </header>
   <main>
-    <section class="intro">
+    <section class="intro" id="sobre">
       <p>
         Esta galeria apresenta o universo singular de Björk Guðmundsdóttir,
         artista islandesa que revolucionou a música e a arte contemporânea.
@@ -22,7 +39,7 @@
       </p>
     </section>
 
-    <section class="gallery">
+    <section class="gallery" id="galeria">
       <figure>
       <img src="media/1.jpg" alt="Björk 1">
       <figcaption>Fossora Photoshoot - 2022</figcaption></figure>
@@ -89,7 +106,8 @@
     </section>
   </main>
 
-  <footer>
+  <footer id="redes">
+
     <h4>Redes sociais</h4>
     <ul class="social">
       <li>
